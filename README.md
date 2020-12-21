@@ -1,2 +1,2 @@
 # PlayWhright_Python_SNKRS
- Bot criado com a biblioteca playwright e python para compra automatizada.
+ Bot criado com a biblioteca playwright em python para compra automatizada.
