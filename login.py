@@ -5,7 +5,7 @@ async def login(browser , page , emailUser: str , senhaUser: str) -> bool:
     await page.goto("https://www.nike.com.br",waitUntil='load')
     await page.click("#anchor-acessar")
     await page.waitForTimeout(700)
-    if emailUser or senhaUser != "":
+    if emailUser and senhaUser != "":
         try:
             await page.type('input[name="emailAddress"]',emailUser,delay=250)
             await page.waitForTimeout(2000)
