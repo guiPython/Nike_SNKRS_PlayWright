@@ -16,7 +16,7 @@ async def main():
     produto = os.getenv("PRODUTO")
     async with async_playwright() as p:
 
-        browser = await p.chromium.launch(executablePath="C:\Program Files\Google\Chrome\Application\chrome.exe",headless=False)
+        browser = await p.firefox.launch(headless=False)
         page = await browser.newPage()
         page.setDefaultTimeout(0)
 
