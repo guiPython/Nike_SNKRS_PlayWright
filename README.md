@@ -1,4 +1,4 @@
-# PlayWhright_Python_SNKRS
+# PlayWhright_SNKRS
  Bot criado com a biblioteca playwright em python para compra automatizada.
  
  Em desenvolvimento , estou crinado os metodos e estudando alguns erros que a biblioteca playwright retorna em diferentes navegadores.
